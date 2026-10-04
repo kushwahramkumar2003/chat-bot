@@ -1,0 +1,12 @@
+{
+  "name": "@repo/validation",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./auth": "./src/auth.ts",
+    "./chat": "./src/chat.ts"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  }
+}
